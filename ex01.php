@@ -3,7 +3,6 @@ $txt='';
 for ($i=1; $i < 10; $i++) {
    $txt.=$i.'-'; 
 }
-//$txt.=$i;
-echo $i;
+$txt.=$i;
 echo $txt;
 ?>
